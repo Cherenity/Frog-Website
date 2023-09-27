@@ -17,7 +17,7 @@
     </div>
 
     <div class="center">
-​
+
 
       <h1> Frog Facts </h1>
       <br>
@@ -27,26 +27,35 @@
       <br> With every leap, it catches flies,
       And basks in the moonlit skies.</p>
         
-      <button>Fact 1</button>
-      <button>Fact 2</button>
-      <button>Fact 3</button>
-      <button>Fact 4</button>
+      <button onclick="button1func()">Fact 1</button>
+      <button onclick="button2func()">Fact 2</button>
+      <button onclick="button3func()">Fact 3</button>
+      <button onclick="button4func()">Fact 4</button>
       
       <div></div>
-      
+      <h2 id="test"></h2>
       <img class="butterflyfrogimg" src="img\frog1.png" alt="frogbutterfly">
       
     </div>
 
     <script>
+    function button1func(){
+      document.getElementById("test").innerHTML="Extinct in the wild, the bronx zoo is one of the only places in the world where you can see one special frog."
+    }
+    
+    function button2func(){
+      document.getElementById("test").innerHTML="The Australian water-holding frog is a desert dweller that can wait up to seven years for rain. It burrows underground and surrounds itself in a transparent cocoon made of its own shed skin."
+    }
 
-      function doSomething(){
+    function button3func(){
+      document.getElementById("test").innerHTML="Like all amphibians, frogs are cold-blooded, meaning their body temperatures change with the temperature of their surroundings. When temperatures drop, some frogs dig burrows underground or in the mud at the bottom of ponds. They hibernate in these burrows until spring, completely still and scarcely breathing."
+    }
 
-
-      }
-
-
-    </script>
+    function button4func(){
+      document.getElementById("test").innerHTML="Frogs have excellent night vision and are very sensitive to movement. The bulging eyes of most frogs allow them to see in front, to the sides, and partially behind them. When a frog swallows food, it pulls its eyes down into the roof of its mouth, to help push the food down its throat."
+    }
+  
+      </script>
   
   </body>
 
