@@ -2,58 +2,47 @@
   margin:0;
   padding: 0;
   font-family:"Sofia", sans-serif;
+  text-align: center;
 }
 
-.center {
-  margin: auto;
-  width: 500px;
+html{
+  background-color: rgb(38, 29, 39);
 }
 
-button{
-  background-color: rgb(218, 196, 218);
-  border-color: yellowgreen;
-  margin-top: 20px;
-  margin-left: 40px;
-  cursor: pointer;
-  padding: 4px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 20px;
-}
-
-button:hover{
-  color: white;
-  background-color: rgb(128, 41, 95);
-}
-
-
-
-h1 {
-  color: rgb(136, 115, 136);
-  text-shadow: 5px 2px rgb(196, 200, 204);
-  font-size: 80px;
-  padding-left: 32px;
-
-}
-
-p {
-  color:rgba(7, 1, 7, 0.519);
+h1{
+  font-size:30px;
+  font-family: 'Press Start 2P';
+  padding-top:85px;
   padding-left: 40px;
+  padding-right: 40px;
+  color: rgb(236, 194, 231);
 }
 
-.backround{
-  width: 200%;
-  min-height: 10vh;
-  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(136, 115, 136));
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(50, 49, 73);
 }
 
-.butterflyfrogimg{
-  width: 400px;
+.flex-container > div {
+  width: 550 px;
+  text-align: center;
+  line-height:0px;
+  font-size: 30px;
 }
 
-.vasen{
-  float: left;
-  width: 450px;
-  height: 1000px;
-  background: rgb(44, 39, 39);
-  }
+.underFlex-conrainer{
+  background-color: rgb(27, 29, 30);
+  color: aliceblue;
+  font-family: 'Press Start 2P';
+  height: 30px;
+  padding-top: 10px;
+  padding-left: 20px;
+  text-align: start;
+}
+
+.sideBar{
+  background-color:  rgb(148, 154, 138);
+  height:550px;
+  width: 260px;
+}
