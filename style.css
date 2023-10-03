@@ -1,23 +1,33 @@
 *{
   margin:0;
   padding: 0;
-  font-family:"Sofia", sans-serif;
   text-align: center;
+  font-family: 'Press Start 2P';
 }
 
 html{
-  background-color: rgb(38, 29, 39);
+  background-color: rgb(255, 255, 255);
 }
 
 h1{
-  font-size:30px;
-  font-family: 'Press Start 2P';
-  padding-top:85px;
+  font-size:18px;
+  padding-top:75px;
   padding-left: 40px;
   padding-right: 40px;
   color: rgb(236, 194, 231);
 }
 
+h2{
+  font-family: 'Press Start 2P';
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(182, 255, 193)
+}
+
+p {
+  padding-top: 10px;
+  color: rgb(236, 194, 231);
+}
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -26,9 +36,7 @@ h1{
 
 .flex-container > div {
   width: 550 px;
-  text-align: center;
   line-height:0px;
-  font-size: 30px;
 }
 
 .underFlex-conrainer{
@@ -37,12 +45,21 @@ h1{
   font-family: 'Press Start 2P';
   height: 30px;
   padding-top: 10px;
-  padding-left: 20px;
+  padding-left: 37px;
   text-align: start;
 }
 
-.sideBar{
-  background-color:  rgb(148, 154, 138);
-  height:550px;
-  width: 260px;
+.parent {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 2rem 2%;
+  text-align: center;
+  background-color: rgb(50, 49, 73);
+}
+.child {
+  display: inline-block;
+  border: 1px solid rgb(148, 141, 141);
+  background-color: rgb(27, 29, 30);
+  padding: 1rem 1rem;
+  vertical-align: middle;
 }
